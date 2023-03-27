@@ -785,7 +785,7 @@ Single recipe page
   font-weight: bold;
   color: var(--grey-100);
   background-color: var(--primary-700);
-  border-radius: 30%;
+  border-radius: 20%;
   margin: 0;
   padding: 0.25rem 0;
   font-family: 'Times New Roman', Times, serif;

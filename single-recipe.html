@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Granny's Recipes || Single recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header  -->
+        <div class="nav-header">
+          <a href="index.html">
+            <!-- <img src="./assets/logo.svg" alt="Simply Recipes" /> -->
+            <h3 id="granny">Granny's Recipes</h3>
+          </a>
+          <button class="btn nav-btn" type="button">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of nav  -->
+    <!-- main  -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpg"
+            class="img recipe-hero-img"
+            alt="FoodName"
+          />
+          <article>
+            <h2>Mix veg</h2>
+            <p>
+              Mix veg is a healthy and flavorful vegetarian dish made with a variety of fresh vegetables cooked in a fragrant blend of spices and herbs. Enjoy it as a main course or a side dish!
+            </p>
+            <!-- recipe icons  -->
+            <div class="recipe-icons">
+              <!-- single recipe icon  -->
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>15 min</p>
+              </article>
+              <!-- single recipe icon  -->
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20 min</p>
+              </article>
+              <!-- single recipe icon  -->
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <!--recipe tags  -->
+            <div class="recipe-tags">
+              Tags: <a href="tag-template.html">veg</a>        
+              <a href="tag-template.html">veg</a>
+              <a href="tag-template.html">veg</a>
+              <a href="tag-template.html">veg</a>      
+            </div>
+          </article>
+        </section>
+
+        <!-- recipe-content  -->
+        <section class="recipe-content">
+          <article>
+            <h4>Instructions</h4>
+            <!-- single-instruction  -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p>Heat oil in a pan over medium-high heat. Add cumin seeds and sauté for a minute until they start to splutter.</p>
+            </div>
+            <!-- single-instruction  -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p>Add chopped onions, ginger, and garlic to the pan and cook until the onions are soft and translucent. Next, add chopped vegetables such as carrots, potatoes, beans, peas, and cauliflower and mix well.</p>
+            </div>
+            <!-- single-instruction  -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p>Add spices such as turmeric, cumin powder, coriander powder, red chili powder, and salt to taste. Mix well and cook for about 15-20 minutes until the vegetables are tender and cooked through. Serve hot with rice or bread. Enjoy!</p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                1 onion, chopped
+              </p>
+              <p class="single-ingredient">
+                1 large potato, chopped into small pieces
+              </p>
+              <p class="single-ingredient">
+                1 large carrot, chopped into small pieces
+              </p>
+              <p class="single-ingredient">
+                1/2 cup green beans, chopped
+              </p>
+              <p class="single-ingredient">
+                1/2 cup cauliflower florets
+              </p>
+              <p class="single-ingredient">
+                1/2 cup peas
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Cutting board - for chopping the vegetables into small pieces</p>
+              <p class="single-tool">Knife - for slicing and dicing the vegetables
+              </p>
+              <p class="single-tool">Pan - for cooking the vegetables and spices
+              </p>
+              <p class="single-tool">Spatula - for stirring the vegetables while they cook and to prevent them from sticking to the pan.
+              </p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main  -->
+    <!-- footer  -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Granny's Recipes</span>
+        Built by
+        <a href="https://www.linkedin.com/in/subham-sriramka/"
+          >Subham Sriramka</a
+        >
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
